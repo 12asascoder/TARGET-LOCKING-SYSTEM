@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box; /* Ensure padding and borders are included in width and height */
+}
+body {
+    font-family: 'Montserrat',sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+    color: white;
+    background-color: #6f9d02;
+    background: linear-gradient(to right, #000000, #181c63);/ /* Gradient background */
+
+}
+.gallery-container12 img{
+    flex: 0 0 auto;
+    max-width: 10px; /* Make the image responsive */
+    height: 5px;
+
+}
+
+.navbar {
+    background-color: #181c63;
+    color: white;
+    padding: 15px 20px;
+    height: 50px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    overflow: hidden;
+    
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+.navbar li {
+        float: left;
+        margin-left: 160px;
+    }
+.imgtxt {
+    flex: 1; /* This will take up the remaining space */
+    padding: 20px; /* Add some padding */
+}
+.text{
+    position:absolute;
+    font-size: xxx-large;
+    top: 110px;
+    left: 520px;
+}
+.logo{
+    /*height:100px;
+    width: 50px;
+    margin-top: 0px;*/
+    flex: 0 0 auto;
+    max-width: 100%; /* Make the image responsive */
+    height: 200px; /* Maintain aspect ratio */
+    
+}
+    
+.navbar a {
+        display: block;
+        color: white;
+        text-align: right;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+
+.home-section {
+    
+    background: linear-gradient(to right, #000000, #181c63); /* Gradient background */
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.home-section h1 {
+    font-size: 2.5em;
+    
+}
+.video-container {
+    text-align: center; /* Center the video inside the container */
+}
+
+video {
+    max-width: 100%; /* Make the video responsive */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #ccc; /* Optional: add a border */
+    border-radius: 8px; /* Optional: rounded corners */
+}
+.gallery-section {
+    background: linear-gradient(to bottom, #ccc); /* Gradient background */
+    padding: 20px;
+    color: white;
+    text-align: center;
+    
+    
+}
+.gallery-container {
+        display: flex;
+        flex-wrap: wrap;
+        min-width:none;
+        height:min-content;
+        padding: 100px 20px;
+        
+    }
+    
+.gallery-container img{
+    border: 2px solid #ccc; /* Optional: add a border */
+    border-radius: 8px; /* Optional: rounded corners */
+    margin: 10px;
+    height: 300px;
+    width:250px;
+    object-fit: cover;
+    
+}
+
+.gallery-container video {
+    border: 2px solid #000000,#2d2345; /* Optional: add a border */
+    border-radius: 8px; /* Optional: rounded corners */
+    margin: 10px;
+    height: 300px;
+    width:250px;
+    object-fit: cover;
+    }
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.team-member {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+
+    width: 225px;
+   
+}
+
+.team-member img {
+    width: 100px;
+    border-radius: 50px;
+}
+
+.social-media a {
+    margin: 5px;
+    text-decoration: none;
+}
+.team-member {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* Adjusts spacing between images */
+}
+
+.team-member img {
+    width: 220px; /* Set the desired width */
+    height: 350px; /* Set the desired height */
+    object-fit: cover; /* Ensures images maintain aspect ratio and cover the area */
+}

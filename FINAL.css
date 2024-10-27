@@ -1,0 +1,176 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 2.5;
+    color: white;
+    /* background-color: #3e63f4; */
+    background-color: #303030;
+}
+.logo img{
+    height: 100px;
+}
+.logo{
+    margin-top: 30px;
+}
+.teamname{
+    text-align:center;
+    width: 50vw;
+    font-size: 35px;
+}
+.navbar {
+    background-color: #0e1036;
+    color: white;
+    padding: 15px 20px;
+    height: 100px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    /* overflow: hidden; */
+    z-index: 10;
+    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+}
+/* .spotlight img{
+    position: relative;
+    top: 200px;
+    left: 200px;
+    height: 200px;
+} */
+#grppic{
+    border: 0.1px solid rgba(255, 255, 255, 0);
+}
+#grppic img{
+    width: 1257px;
+}
+#home{
+    height:100vh;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    border: 0.1px solid rgba(255, 255, 255, 0);
+    background: linear-gradient(to bottom, #000000, #181c63,#000000);
+}
+#gallery{
+    /* height: 100vh; */
+    text-align: center;
+    border: 0.1px solid rgba(255, 255, 255, 0);
+    background: linear-gradient(to bottom, #000000, #160448,#000000);
+}
+.navbar .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+/* .navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+} */
+
+.navbar ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+/* .navbar li {
+        float: left;
+        margin-left: 20px;
+    }
+     */
+/* .navbar a {
+        display: block;
+        color: white;
+        text-align: center;
+}
+*/
+
+#about{
+    text-align: center;
+    height: 100vh;
+    border: 0.1px solid rgba(0, 0, 0, 0);
+    background: linear-gradient(to bottom, #000000, #41096f,#000000);
+}
+
+iframe{
+    width: 80vw;
+    height: 500px; /* Adjust height as needed */
+    border: none; /* Remove border */
+}
+/* .gallery-container{
+        display: flex;
+        flex-wrap: wrap;
+        min-width:none;
+        height:min-content;
+        padding: 100px 20px;
+    } */
+    
+.gallery-container img,
+.gallery-container video {
+        height:250px;
+        width: 250px;
+        object-fit:cover;
+        margin: 10px;
+        border-radius: 10px;
+    }
+
+#team{
+    text-align: center;
+    border: 0.1px solid rgba(0, 0, 0, 0);
+    background: linear-gradient(to bottom, #000000, #65096f);
+}
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.team-member {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    width: 240px;
+    
+}   
+
+.team-member img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.social-media a {
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+}
+.team-member{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* Adjusts spacing between images */
+}
+
+.team-member img {
+    width: 240px; /* Set the desired width */
+    height: 350px; /* Set the desired height */
+    object-fit: cover; /* Ensures images maintain aspect ratio and cover the area */
+    padding:5px;
+}
+
+footer{
+    margin-top: 15px;
+    background-color: #000000;
+}
+.footer{
+    text-align: center;
+    padding: 35px;
+}
+.rights{
+    text-align: center;
+    font-size: 15px;
+}
